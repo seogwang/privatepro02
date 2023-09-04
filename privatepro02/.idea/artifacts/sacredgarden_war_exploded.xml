@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="sacredgarden:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/sacredgarden_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sacredgarden" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="google.code.gson" />
+          <element id="library" level="project" name="javax.json.api" />
+          <element id="library" level="project" name="json" />
+          <element id="library" level="project" name="jsoup" />
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="junit" />
+          <element id="library" level="project" name="mariadb.jdbc.java.client" />
+          <element id="library" level="project" name="net.markenwerk.utils.json.parser" />
+          <element id="library" level="project" name="servlets.cos" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="library" level="project" name="crypto" />
+      <element id="javaee-facet-resources" facet="sacredgarden/web/Web" />
+    </root>
+  </artifact>
+</component>
